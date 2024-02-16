@@ -1,0 +1,35 @@
+{
+	"name": "Alfa-Afisha",
+	"short_name": "Alfa-Afisha",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "favicon_alfa-logo_16x16_desktop_08-08-2019.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+		{
+			"src": "favicon_alfa-logo_32x32_desktop_08-08-2019.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "favicon_alfa-logo_180x180_common_09-08-2019.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "favicon_alfa-logo_192x192_common_09-08-2019.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#121212",
+	"background_color": "#ffffff"
+}

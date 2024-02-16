@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  padding: 0 var(--gap-m);
+  margin-bottom: var(--gap-m);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+
+.not-found-message {
+  display: block;
+  padding: var(--gap-8xl) var(--gap-m);
+  text-align: center;
+}

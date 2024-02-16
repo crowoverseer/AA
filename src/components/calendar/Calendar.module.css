@@ -1,0 +1,22 @@
+.shortcuts {
+  display: flex;
+  gap: var(--gap-xs);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px var(--gap-s);
+  background-color: var(--color-light-bg-secondary);
+  white-space: nowrap;
+}
+
+.chip span {
+  padding: 0 var(--gap-2xs);
+}
+
+.chip-active {
+  background-color: var(--color-light-bg-primary-inverted);
+  color: var(--color-light-text-primary-inverted);
+}

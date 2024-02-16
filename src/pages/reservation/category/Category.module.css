@@ -1,0 +1,49 @@
+.tariff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-s);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-s);
+}
+
+.title {
+  margin-bottom: var(--gap-2xs);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-m);
+}
+
+.counter-button {
+  background-color: var(--color-light-bg-secondary);
+  height: var(--gap-2xl);
+}
+
+.counter-button:disabled {
+  background-color: transparent;
+  height: var(--gap-2xl);
+}
+
+.tariffs {
+  margin-bottom: var(--gap-m);
+}
+
+.alert {
+  display: flex;
+  padding: var(--gap-xs) 0;
+  margin-bottom: var(--gap-s);
+}
+
+.alert-message {
+  flex: 1;
+  margin-left: var(--gap-s);
+  padding: var(--gap-3xs) 0;
+}

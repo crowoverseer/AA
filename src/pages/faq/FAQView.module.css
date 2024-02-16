@@ -1,0 +1,17 @@
+.container {
+  padding: var(--gap-xl) var(--gap-m);
+}
+
+.item-header {
+  margin-bottom: var(--gap-s);
+}
+
+.item-description {
+  margin-top: var(--gap-s);
+}
+
+.item-collapsible {
+  position: relative;
+  overflow: hidden;
+  transition: all .3s ease;
+}

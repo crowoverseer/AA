@@ -1,0 +1,15 @@
+/* @import '../../../../themes/src/default.css'; */
+@import '../../vars.css';
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--gap-m) var(--gap-m) var(--gap-s);
+    /* transition: box-shadow 0.2s ease; */
+    display: flex;
+    justify-content: center;
+}
+
+.withShadow {
+    box-shadow: var(--shadow-s);
+}

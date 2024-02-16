@@ -1,0 +1,125 @@
+.container {
+  padding: var(--gap-m) 0;
+  user-select: none;
+  background-color: var(--color-light-bg-secondary);
+}
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--gap-m);
+  cursor: pointer;
+  gap: var(--gap-s);
+}
+
+.scroll-container:active {
+  cursor: grab;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  margin: 0;
+}
+
+.range-start .day-container {
+  border-radius: 999px 0 0 999px;
+}
+
+.range-end .day-container {
+  border-radius: 0 999px 999px 0;
+}
+
+.day-container {
+  position: relative;
+}
+
+.range-start .day-container::after, .range-middle .day-container::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 100%;
+  background-color: var(--calendar-range-complete-background);
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.range-start .day-container,
+.range-end .day-container,
+.range-middle .day-container {
+  background-color: var(--calendar-range-complete-background);
+}
+
+.day {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--gap-3xl);
+  height: var(--gap-3xl);
+}
+
+.day-title {
+  text-transform: uppercase;
+}
+
+.tab-today .day {
+  color: var(--calendar-today-color);
+}
+
+.tab-active .day {
+  background-color: var(--color-light-bg-primary-inverted);
+  color: var(--color-light-text-primary-inverted);
+  border-radius: 9999px;
+}
+
+.month-title {
+  display: inline-block;
+  position: sticky;
+  left: 0;
+  padding-right: var(--gap-m);
+  margin-bottom: var(--gap-xs);
+}
+
+.month-title::first-letter {
+  text-transform: uppercase;
+}
+
+.shortcuts {
+  display: flex;
+  gap: var(--gap-xs);
+  padding: 0 var(--gap-m);
+  margin-bottom: var(--gap-l);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px var(--gap-s);
+  background-color: var(--color-light-bg-tertiary);
+  white-space: nowrap;
+}
+
+.chip span {
+  padding: 0 var(--gap-2xs);
+}
+
+.chip span::first-letter {
+  text-transform: uppercase;
+}
+
+.chip-active {
+  background-color: var(--color-light-bg-primary-inverted);
+  color: var(--color-light-text-primary-inverted);
+}

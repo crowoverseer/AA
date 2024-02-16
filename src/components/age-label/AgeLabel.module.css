@@ -1,0 +1,8 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--gap-xs);
+  border-radius: var(--border-radius-s);
+  background-color: rgba(255, 255, 255, 0.80);
+}

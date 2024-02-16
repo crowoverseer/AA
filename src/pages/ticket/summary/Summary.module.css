@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.ticket-name {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xs)
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: var(--color-light-bg-tertiary) 1px solid;
+  padding-top: var(--gap-m);
+}
+
+.cashback {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+
+.cashback-icon {
+  width: var(--gap-s);
+  height: var(--gap-s);
+  border-radius: 999px;
+  background-color: var(--color-dark-graphic-accent);
+}
+
+.barcode {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--gap-m);
+}

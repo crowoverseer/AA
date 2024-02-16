@@ -1,0 +1,41 @@
+.container {
+  border-radius: 16px;
+  background-color: var(--color-light-bg-secondary);
+}
+
+.cashback {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xs)
+}
+
+.cashback-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: var(--color-dark-graphic-accent);
+}
+
+.one-time-event-content {
+  padding: var(--gap-m);
+}
+
+.one-time-event-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.one-time-event-row .value {
+  text-align: end;
+}
+
+.cashback-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  padding: var(--gap-m);
+  padding-top: 0;
+}

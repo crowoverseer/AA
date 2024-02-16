@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tab-content {
+  flex: 1;
+  position: relative;
+}
+
+.list {
+  flex: 1;
+  padding: var(--gap-m);
+}
+
+.tabs {
+  padding: var(--gap-m);
+}
+
+.tab-inactive {
+  opacity: 0;
+  visibility: hidden;
+}

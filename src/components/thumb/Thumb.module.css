@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  display: flex;
+  background-color: var(--color-light-bg-secondary);
+  overflow: hidden;
+}
+
+.container-rounded-m {
+  border-radius: var(--border-radius-m);
+}
+
+.container-rounded-xl {
+  border-radius: var(--border-radius-xxl);
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  object-fit: cover;
+}

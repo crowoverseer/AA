@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: var(--gap-xs);
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: var(--gap-xl);
+  text-align: center;
+  padding: 0 var(--gap-3xl);
+}
+
+.form {
+  padding-bottom: var(--gap-m) 0;
+}

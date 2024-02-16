@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: var(--gap-m);
+}
+
+.results-container {
+  padding: var(--gap-xs) 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  padding: var(--gap-m) 0;
+}
+
+.not-found-message {
+  display: block;
+  padding: var(--gap-m);
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: var(--gap-m);
+  padding-top: 0;
+}
+
+.city-item {
+  width: 100%;
+}
+
+.action-button {
+  position: sticky;
+  bottom: var(--gap-m);
+  margin-top: var(--gap-m);
+}

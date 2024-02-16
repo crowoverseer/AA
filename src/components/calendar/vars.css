@@ -1,0 +1,57 @@
+:root {
+    --calendar-height: 344px;
+    --calendar-width: 344px;
+    --calendar-inner-width: 280px;
+    --calendar-mobile-inner-width: 256px;
+    --calendar-inner-third-part-width: calc(var(--calendar-inner-width) / 3);
+    --calendar-mobile-inner-half-width: calc(var(--calendar-mobile-inner-width) / 2);
+
+    /* Кнопки выбора месяцев и годов */
+    --calendar-select-button-gap: calc(var(--gap-xs) / 3);
+    --calendar-mobile-select-button-gap: calc(var(--gap-2xs) / 2);
+    --calendar-mobile-select-button-width: calc(
+        var(--calendar-mobile-inner-half-width) - var(--calendar-mobile-select-button-gap)
+    );
+    --calendar-select-button-width: calc(
+        var(--calendar-inner-third-part-width) - var(--calendar-select-button-gap)
+    );
+    --calendar-select-button-today-border-color: var(--color-light-border-key);
+    --calendar-select-button-selected-background: var(--color-light-bg-primary-inverted);
+
+    /* Шапка */
+    --calendar-month-only-header-font-family: var(--font-family-system);
+    --calendar-month-only-header-font-size: 18px;
+    --calendar-month-only-header-font-weight: 500;
+
+    /* День */
+    --calendar-day-size: 40px;
+    --calendar-day-border-radius: var(--border-radius-pill);
+
+    /* today */
+    --calendar-today-color: var(--color-light-text-link);
+
+    /* highlighted */
+    --calendar-highlighted-color: var(--color-light-text-primary);
+    --calendar-highlighted-background: var(--color-light-graphic-quaternary);
+
+    /* holidays */
+    --calendar-holiday-color: var(--color-light-text-accent);
+
+    /* range */
+    --calendar-range-color: var(--color-light-text-primary);
+    --calendar-range-background: var(--color-light-specialbg-component);
+    --calendar-range-complete-background: var(--color-light-graphic-link-alpha-15);
+
+    /* selected */
+    --calendar-selected-color: var(--color-light-text-primary-inverted);
+    --calendar-selected-background: var(--color-light-graphic-primary);
+    --calendar-selected-hover-background: var(--color-light-graphic-primary-tint-15);
+
+    /* disabled */
+    --calendar-disabled-color: var(--color-light-text-tertiary);
+    --calendar-disabled-background: transparent;
+
+    /* marker */
+    --calendar-marker-background: var(--color-light-graphic-primary);
+    --calendar-marker-selected-background: var(--color-light-graphic-primary-inverted);
+}

@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  padding: 0 var(--gap-m);
+  user-select: none;
+}
+
+.header {
+  padding: var(--gap-m);
+}
+
+.item {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 70vw;
+  border-radius: 999px;
+  padding: var(--gap-xs) var(--gap-m);
+  background-color: var(--color-light-bg-tertiary);
+  color: var(--color-light-text-secondary);
+}
+
+.item-active {
+  background-color: var(--color-black);
+  color: white;
+}

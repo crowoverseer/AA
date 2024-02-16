@@ -1,0 +1,22 @@
+.container {
+  border-radius: var(--border-radius-xl);
+  padding: var(--gap-m);
+  background-color: var(--color-light-bg-secondary);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-left {
+  display: flex;
+  flex-direction: column;
+}

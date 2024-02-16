@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+}
+
+.age {
+  position: absolute;
+  z-index: 1;
+  top: var(--gap-s);
+  right: var(--gap-s);
+}
+
+.title {
+  margin-top: var(--gap-2xs);
+}
+
+.subtitle {
+  margin-top: var(--gap-s);
+}

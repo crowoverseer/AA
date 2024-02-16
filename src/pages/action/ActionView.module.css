@@ -1,0 +1,44 @@
+.container {
+  padding: var(--gap-m);
+}
+
+.image {
+  position: relative;
+}
+
+.age {
+  position: absolute;
+  left: var(--gap-s);
+  bottom: var(--gap-s);
+}
+
+.title {
+  padding-right: var(--gap-s);
+}
+
+.subtitle {
+  display: inline-block;
+  margin-top: var(--gap-2xs);
+}
+
+.disclosure {
+  position: relative;
+  transition: all .3s ease;
+  overflow: hidden
+}
+
+.disclosure-close::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: linear-gradient(rgba(255, 255, 255, 0), var(--color-light-bg-primary));
+}
+
+.action-button {
+  position: sticky;
+  bottom: var(--gap-m);
+  margin-top: var(--gap-m);
+}

@@ -1,0 +1,76 @@
+@import '../../vars.css';
+
+.header {
+    background-color: var(--color-light-bg-primary);
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.withZIndex {
+    z-index: 2;
+}
+
+.calendar.calendar {
+    height: 100%;
+}
+
+.calendar th {
+    border-bottom: 1px solid var(--color-light-border-primary);
+}
+
+.dayNames {
+    width: 100%;
+    position: sticky;
+    background: var(--modal-header-background);
+    top: 0;
+    height: 32px;
+    padding: 0 6px;
+
+    &.withHeader {
+        top: 48px;
+    }
+}
+
+.dayNames th {
+    height: 100%;
+}
+
+.month {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: var(--color-light-text-primary);
+    margin-bottom: var(--gap-xs);
+}
+
+.daysTable {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--gap-2xl);
+}
+
+.dayName {
+    @mixin paragraph_primary_small;
+
+    height: var(--calendar-day-size);
+    color: var(--color-light-text-secondary);
+
+    @media (max-width: 374px) {
+        height: 36px;
+    }
+}
+
+.header.header,
+.content.content {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.content.content {
+    flex-basis: 0;
+}

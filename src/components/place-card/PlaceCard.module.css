@@ -1,0 +1,32 @@
+.content {
+  padding: var(--gap-s) 0;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-s);
+  margin-top: var(--gap-s);
+}
+
+.name {
+  display: block;
+}
+
+.address {
+  display: block;
+  margin-top: var(--gap-2xs);
+}
+
+.map {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  border-radius: var(--border-radius-xl);
+}
+
+.routes-button {
+  position: absolute;
+  right: var(--gap-s);
+  top: var(--gap-s);
+}

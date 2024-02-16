@@ -1,0 +1,24 @@
+.container {
+  padding: var(--gap-m);
+}
+
+.error {
+  max-width: 360px;
+  width: 100%;
+  padding: var(--gap-m);
+}
+
+.centered-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--gap-m);
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--color-light-bg-primary);
+  padding: var(--gap-m);
+  border-bottom: var(--color-light-bg-secondary) 1px solid;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  gap: var(--gap-2xs);
+  margin-left: var(--gap-m);
+}

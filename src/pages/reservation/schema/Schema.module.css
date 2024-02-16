@@ -1,0 +1,92 @@
+.container {
+  flex: 1;
+  position: relative;
+  background-color: #ffffff61;
+}
+
+.hall-control {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hall-control :global(.HC-legend) :global(.legend) {
+  padding: 6px 12px !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hall-control :global(.HC-legend) :global(.legend.reservator),
+.hall-control :global(.HC-legend) :global(.legend.out-of-stock) {
+  display: none;
+}
+
+.hall-control :global(.HC-legend) :global(.category.select) {
+  color: var(--color-light-text-primary-inverted) !important;
+  background-color: var(--color-light-bg-primary-inverted) !important;
+}
+
+.hall-control :global(.HC-legend) :global(.category):not(:global(.select)) {
+  color: var(--color-light-text-primary) !important;
+  background: var(--color-light-bg-secondary) !important;
+  opacity: 1 !important;
+}
+
+.hall-control :global(.HC-legend) :global(.legend:not(.reservator):not(.all)) :global(.icon) svg {
+  width: 16px;
+  margin-right: 12px;
+}
+
+.hall-control :global(.button) {
+  border-radius: var(--button-xs-size-border-radius);
+  font-size: 14px;
+  font-weight: var(--button-font-weight);
+}
+
+.hall-control :global(.inner) {
+  background-color: var(--color-light-bg-secondary);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.hall-control :global(.location>div) {
+  padding-bottom: 0;
+}
+
+.message {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tariffs-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: var(--color-light-bg-primary);
+  border-top: 1px solid var(--color-light-border-primary);
+  padding: var(--gap-m);
+}
+
+.tariffs-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tariff-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-button {
+  background-color: var(--color-light-specialbg-secondary-transparent);
+  border-radius: 1000px;
+}

@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+
+.show-more-button {
+  padding: 0 var(--gap-s);
+}

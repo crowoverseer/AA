@@ -1,0 +1,13 @@
+.container {
+  padding: var(--gap-s) var(--gap-m);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datetime {
+  display: block;
+}

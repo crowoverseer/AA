@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding-top: var(--gap-m);
+}
+
+.menu {
+  padding: 0 var(--gap-m);
+}
+
+.menu-item {
+  width: 100%;
+}
+
+.button-group {
+  padding: var(--gap-m);
+}
